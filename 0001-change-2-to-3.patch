@@ -1,0 +1,19 @@
+From 4fd9af6df885a9076166195a23f8b8bb09299030 Mon Sep 17 00:00:00 2001
+From: "changjie.fu" <changjie.fu@cs2c.com.cn>
+Date: Tue, 18 Feb 2020 10:54:05 +0800
+Subject: [PATCH] change 2 to 3
+
+---
+ src/a.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/a.c b/src/a.c
+index 0cfbf08..00750ed 100644
+--- a/src/a.c
++++ b/src/a.c
+@@ -1 +1 @@
+-2
++3
+-- 
+2.21.0
+

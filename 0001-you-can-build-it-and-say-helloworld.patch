@@ -1,0 +1,35 @@
+From 95e3a527c085b2c0d43df326646a371256dd1182 Mon Sep 17 00:00:00 2001
+From: "changjie.fu" <changjie.fu@cs2c.com.cn>
+Date: Tue, 18 Feb 2020 14:09:22 +0800
+Subject: [PATCH] you can build it and say helloworld
+
+---
+ src/a.c   | 1 -
+ src/a.cpp | 7 +++++++
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+ delete mode 100644 src/a.c
+ create mode 100644 src/a.cpp
+
+diff --git a/src/a.c b/src/a.c
+deleted file mode 100644
+index 00750ed..0000000
+--- a/src/a.c
++++ /dev/null
+@@ -1 +0,0 @@
+-3
+diff --git a/src/a.cpp b/src/a.cpp
+new file mode 100644
+index 0000000..203ffab
+--- /dev/null
++++ b/src/a.cpp
+@@ -0,0 +1,7 @@
++#include <iostream>
++int main()
++{
++    using namespace std;
++    cout << "HelloWorld\n";
++    return 0;
++}
+-- 
+2.21.0
+
